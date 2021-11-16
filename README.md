@@ -17,7 +17,6 @@ Stakeholder: World Health Organization (WHO)
 
 CNN
 
-
 Initial Exploration: 
 
 Checked counts for normal vs. pneumonia images. 
@@ -34,13 +33,10 @@ Parameter Tuning:
 
 Recommendations: 
 
- 
-
 **Conclusion**
 
 
 Future Work: 
-
 
 
 **Presentation Link:** 
