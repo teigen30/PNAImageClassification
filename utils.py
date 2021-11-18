@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
-%matplotlib inline
 
 def pic_count(path, folder_name):
     ''' Returns a visualization of the picture counts for image folders by type.
@@ -91,7 +90,7 @@ def plot_performance(hist):
     Third plot returns training and validation F1-Scores. 
     Fourth plot returns training and validation recall scores. 
     
-    hist: input history model containing train images, labels, and validation data. """
+    hist: input history model containing train images, labels, and validation data. t"""
     
     hist_ = hist.history
     epochs = hist.epoch
