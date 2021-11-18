@@ -42,7 +42,7 @@ def plotly_eda(data, title1, title2, title3):
                      title=title1
                      )
 
-    fig2 = px.histogram(train_img_sizes_df, 
+    fig2 = px.histogram(data, 
                         x='Width', 
                         y='Height',  
                         color='Type',
@@ -52,7 +52,7 @@ def plotly_eda(data, title1, title2, title3):
                         title=title2
                        )
 
-    fig3 = px.histogram(train_img_sizes_df, 
+    fig3 = px.histogram(data, 
                         x='Height', 
                         y='Width',
                         color='Type',
