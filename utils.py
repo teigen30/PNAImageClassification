@@ -175,6 +175,21 @@ def plot_performance(hist):
     plt.figure()
     
     plt.show()
+    
+def confusion_matrix(estimator, x, y):
+    """Returns a confusion matrix in Seaborn heatmap style.
+    
+    estimator: model 
+    x: X_val (X validation) 
+    y: y_val (y validation)
+    
+    """
+    y_predict_test = estimator.predict(x)
+    y_true_test = y
+    res_test = tf.math.confusion_matrix(y_true_test, y_predict_test)
+    res_test
+    
+    return sns.heatmap(res_test, annot=True, fmt='g')
 
 
     
