@@ -13,7 +13,7 @@ def pic_count(path, folder_name):
     folder_name: name of the folder as a string. This will set the title of the visualization. 
     
     '''
-    dict = {'Normal' :len(os.listdir(folder + '/NORMAL')), 'Pneumonia':len(os.listdir(folder + '/PNEUMONIA'))}
+    dict = {'Normal' :len(os.listdir(path + '/NORMAL')), 'Pneumonia':len(os.listdir(path + '/PNEUMONIA'))}
     fig = px.bar(dict.keys(), 
                  dict.values(), 
                  title=folder_name, 
