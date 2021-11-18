@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
+import seaborn as sns
+import tensorflow as tf
 
 def pic_count(path, folder_name):
     ''' Returns a visualization of the picture counts for image folders by type.
