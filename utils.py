@@ -5,8 +5,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.express as px
-import seaborn as sns
-import tensorflow as tf
 
 def pic_count(path, folder_name):
     ''' Returns a visualization of the picture counts for image folders by type.
@@ -192,6 +190,10 @@ def confusion_matrix(estimator, x, y):
     res_test
     
     return sns.heatmap(res_test, annot=True, fmt='g')
+    
+import seaborn as sns
+import tensorflow as tf
+
 
 
     
