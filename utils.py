@@ -25,8 +25,55 @@ def pic_count(path, folder_name):
                  height=500)
     fig.show()
     
+def plotly_eda(data, title1, title2, title3): 
+    '''Returns three Plotly visuals including: 
+    
+    1. Scatter plot of Height and Width (pixels)
+    2. Histogram of distrubition Height vs Width, 
+    3. Histogram of distribution of Width vs Height.
+    
+    data: DataFrame with a Height, Width, and Type column. 
+    title1: title of first scatter plot. 
+    title2: title of first histogram. 
+    title3: title of second histogram. 
+    
+    '''
+    fig = px.scatter(data, 
+                     x='Width', 
+                     y='Height',
+                     color='Type',
+                     color_discrete_sequence=px.colors.sequential.ice_r,
+                     template='plotly_dark',
+                     opacity=.4,
+                     title=title1
+                     )
+
+    fig2 = px.histogram(train_img_sizes_df, 
+                        x='Width', 
+                        y='Height',  
+                        color='Type',
+                        color_discrete_sequence=
+                        px.colors.sequential.ice_r, 
+                        template='plotly_dark',
+                        title=title2
+                       )
+
+    fig3 = px.histogram(train_img_sizes_df, 
+                        x='Height', 
+                        y='Width',
+                        color='Type',
+                        color_discrete_sequence=
+                        px.colors.sequential.ice_r, 
+                        template='plotly_dark',
+                        title=title3
+                       )
+    fig.show()
+    fig2.show()
+    fig3.show()
+    
 def images_to_df(root1_, root2_, image_type1, image_type2):
     """ Returns a concatenated DataFrame containing columns for FileName, Size, Width, Aspect Ratio, and Image Type.
+    Some of this code was taken from https://medium.com/analytics-vidhya/how-to-pick-the-optimal-image-size-for-training-convolution-neural-network-65702b880f05 that grabs the Width and Height of the images. 
     
     root1: first path to image folder.
     root2: second path to image folder. 
