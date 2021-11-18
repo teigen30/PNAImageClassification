@@ -23,7 +23,7 @@ def pic_count(path, folder_name):
                  template='plotly_dark', 
                  width=800,
                  height=500)
-    fig.show
+    fig.show()
     
 def images_to_df(root1_, root2_, image_type1, image_type2):
     """ Returns a concatenated DataFrame containing columns for FileName, Size, Width, Aspect Ratio, and Image Type.
