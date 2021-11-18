@@ -17,6 +17,7 @@ from keras.wrappers.scikit_learn import KerasRegressor
 from tensorflow.keras.callbacks import EarlyStopping
 from pathlib import Path
 import imagesize
+import tensorflow as tf
     
 def confusion_matrix(model, x, y):
     """Returns a confusion matrix in Seaborn heatmap style.
