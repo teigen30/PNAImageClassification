@@ -1,5 +1,7 @@
 # PNAImageClassification
 
+[Normal_vs_Pneumonia_Xray](images/norm_pneu.jpg)
+
 **Overview**
 
 This project analyses over 5,800 chest x-ray images taken of pediatric patients both with and without pneumonia and develops a binary classification model to predict whether a patient has pneumonia or not. The JPEG images were selected from groups of pediatric patients ages one to five years old from Guangzhou Women and Children's Medical Center, Guangzhou China. The World Health Organization (WHO) is requesting a model to help accurately predict pneumonia in young patients. 
