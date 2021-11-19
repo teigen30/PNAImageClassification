@@ -21,7 +21,7 @@ CNN
 Initial Exploration: 
 
 A separate validation set of images was created due to the small size of the provided validation set (16 images).  The folder of pneumonia verified x-ray images was just under four times larger than the folder for healthy x-rays and will be dealt with by transforming the normal images to increase the number of them in future model iterations. Due to computational limitations, images were reduced from an average height/width of 968 x 1320 pixels to 255 x 255 pixels. A test train split was used to separate image data into test, train, and validation (holdout) folders.
-![training_image_count](Documents/Flatiron/Phase4/Project/images/train_image_count.jpg)
+![training_image_count](images/train_image_count.jpg)
 
 Baseline Model: 
 
