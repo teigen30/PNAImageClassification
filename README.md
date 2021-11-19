@@ -4,6 +4,8 @@
 
 **Overview**
 
+To easily view our notebook and visualizations, please use the link [here](https://nbviewer.org/github/teigen30/PNAImageClassification/blob/main/PneumoniaXrayClassification.ipynb)
+
 This project analyses over 5,800 chest x-ray images taken of pediatric patients both with and without pneumonia and develops a binary classification model to predict whether a patient has pneumonia or not. The JPEG images were selected from groups of pediatric patients ages one to five years old from Guangzhou Women and Children's Medical Center, Guangzhou China. The World Health Organization (WHO) is requesting a model to help accurately predict pneumonia in young patients. 
 
 **Business and Data Understanding**
@@ -37,17 +39,23 @@ The final model (Model 5) was a more complex CNN made up of nine layers. The CNN
 
 Parameter Tuning: 
 
+Made adjustments to prevent overfitting using Early Stopping and Dropout. Made sure all aspects of our model were set up to work in a binary classification model. 
+
 Recommendations: 
 
 Our recommendation to WHO is to deploy our model, or one similar, in locations where there are few experts in x-ray image analysis or where pneumonia has proven to be a consistent issue. By doing so, WHO could help diagnose and treat individuals for pneumonia who otherwise would likely not be examined for weeks if at all.
 
 **Conclusion**
 
-A CNN was created that correctly identified x-ray images as having pneumonia ____% of the time and identified _____ ___% of the time. This model would be extremely helpful for individuals living in isolated regions where pneumonia is common with little to no access to healthcare professionals.
+A CNN was created that correctly identified x-ray images as having pneumonia 100% of the time and identified Normal images 74% of the time with an overall accuracy of 78%.
 
 Future Work: 
 
-In the future, we would like to create a model that would be able to identify the type of pneumonia (viral/bacterial) present in the patient as treatments for the two types vary. Additionally, we would like to create a similar model using audio recordings of an individual’s breathing to identify the same thing. Doing so would extend the potential reach and impact of our model by enabling individuals with no access to x-ray technology to be diagnosed as well. The final thing which we would like to take into account in future models is the air quality of the individuals affected.
+We would like to make improvements in our current model by addressing the imbalance between normal and pneumonia images. The model trained very well on pneumonia images but the lack of normal images is holding our model back.
+
+We would like to make a tool that deploys our model easily for common use, either on a website or an aplplication.
+
+In future work, we would like to create a model that would be able to identify the type of pneumonia (viral/bacterial) present in the patient as treatments for the two types vary. Additionally, we would like to create a similar model using audio recordings of an individual’s breathing to identify the same pneumonia. In areas with low access to medical resources, many doctors detect pneumonia by listening to a patients breathing. Making this model would extend the potential reach and impact of our work by enabling individuals with no access to x-ray technology to be diagnosed as well. We would also like to perform an air quality survery to pinpoint areas with low air quality that could be increasing the risk of pneumonia in children.
 
 **Presentation Link:** 
 
