@@ -48,7 +48,7 @@ In the future, we would like to create a model that would be able to identify th
 
 **Presentation Link:** 
 
-https://www.canva.com/design/DAEv_SZ5S5s/4oebG7_dX6h5wyX9MICMgw/view?utm_content=DAEv_SZ5S5s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+[Presentation Link](https://www.canva.com/design/DAEv_SZ5S5s/4oebG7_dX6h5wyX9MICMgw/view?utm_content=DAEv_SZ5S5s&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 **Repository Navigation**
 
