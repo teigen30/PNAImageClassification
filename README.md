@@ -56,14 +56,14 @@ In the future, we would like to create a model that would be able to identify th
 **Repository Navigation**
 
 ```
-├── README.md                    <- The top-level README for reviewers of this project. 
-├── Jen                          <- Notebook containing work from Jen S
-├── Jennifer C                   <- Notebook containing work from Jennifer C
-├── final_notebook.pdf           <- Final combined notebook with EDA, Visualizations, Explanations, Model Iterations, and our Final Model. 
-├── images                       <- Contains images used for README.md and notebook. 
-├── presentation.pdf             <- PDF of the Canva presentation. 
-├── utils.py                     <- Helpful functions to use in our final notebook
-├── utils2.py                    <- Helpful functions to use in our final notebook
-├── utils3.py                    <- Helpful functions to use in our final notebook
-└── utils20.py                   <- Helpful functions to use in our final notebook
+├── README.md                                   <- The top-level README for reviewers of this project. 
+├── Jen                                         <- Notebook containing work from Jen S
+├── Jennifer C                                  <- Notebook containing work from Jennifer C
+├── PneumoniaXrayClassification.ipynb           <- Final combined notebook with EDA, Visualizations, Explanations, Model Iterations, and our Final Model. 
+├── images                                      <- Contains images used for README.md and notebook. 
+├── presentation.pdf                            <- PDF of the Canva presentation. 
+├── utils.py                                    <- Helpful functions to use in our final notebook
+├── utils2.py                                   <- Helpful functions to use in our final notebook
+├── utils3.py                                   <- Helpful functions to use in our final notebook
+└── utils20.py                                  <- Helpful functions to use in our final notebook
 ```
