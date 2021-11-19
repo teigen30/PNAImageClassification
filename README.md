@@ -4,8 +4,6 @@
 
 **Overview**
 
-To easily view this notebook and all of the visualizations, please use our nbviewer link [here](https://nbviewer.org/github/teigen30/PNAImageClassification/blob/main/PneumoniaXrayClassification.ipynb)
-
 This project analyses over 5,800 chest x-ray images taken of pediatric patients both with and without pneumonia and develops a binary classification model to predict whether a patient has pneumonia or not. The JPEG images were selected from groups of pediatric patients ages one to five years old from Guangzhou Women and Children's Medical Center, Guangzhou China. The World Health Organization (WHO) is requesting a model to help accurately predict pneumonia in young patients. 
 
 **Business and Data Understanding**
@@ -33,7 +31,7 @@ The baseline model was a simple CNN consisting of one flatten and two dense laye
 
 Final Model: 
 
-The final model was a more complex CNN made up of ____ layers. About the layers … 
+The final model (Model 5) was a more complex CNN made up of nine layers. The CNN contained Dense (3), Conv2D (2), Flatten (1), Dropout (1), and Average Pooling (2) layers. The model had a precision score of 0.8026, recall of 0.9616, accuracy at 0.8280, and a loss of 0.3594. 
 
 **Model Results**
 
