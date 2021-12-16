@@ -1,4 +1,4 @@
-# Pneaumonia Image Classification
+# Pneumonia Image Classification
 
 ![Normal_vs_Pneumonia_Xray](images/norm_pneu.jpg)
 
